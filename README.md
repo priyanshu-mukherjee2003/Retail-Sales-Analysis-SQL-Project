@@ -21,7 +21,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 - **Database Creation**: The project starts by creating a database named `Retail Sales DB`.
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
-```
+```sql
 -- Creating the DATABASE
 CREATE DATABASE [Retail Sales DB];
 
@@ -49,7 +49,7 @@ CREATE TABLE retail_sales
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
-```
+```sql
 -- SELECT Query with retail_sales TABLE
 SELECT * FROM retail_sales
 
@@ -116,7 +116,7 @@ SELECT DISTINCT category AS total_unique_categories FROM retail_sales;
 
 The following SQL queries were developed to answer specific business questions:
 
-```
+```sql
 -- DATA ANALYIS & BUSINESS KEY Problems:-
 -- My Analysis & Findings:-
 
